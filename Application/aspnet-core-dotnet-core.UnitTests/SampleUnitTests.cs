@@ -14,6 +14,6 @@ namespace aspnet_core_dotnet_core.UnitTests
             IndexModel model = new IndexModel(appconfig);
             Assert.AreEqual("Index", actual: model.DoTest());
         }
-
+//Test
     }
 }
